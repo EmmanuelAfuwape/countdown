@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    background-image: url('galaxy-s24-ultra-highlights-form-factor-start.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-image: url(wepik-export-20230907140401cMdO.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-image: url(wepik-export-20230907140401cMdO.png);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+li span {
+    display: block;
+    font-size: 6rem;
+    color: darkgreen;
+    background-image: url(pexels-johannes-plenio-1103970.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+li.separator {
+    margin: 0 10px;
+    font-size: 6rem;
+    line-height: 1;
+    color: darkgreen;
+    background-image: url(pexels-johannes-plenio-1103970.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+li:first-of-type {
+    margin-right: 5rem;
+}

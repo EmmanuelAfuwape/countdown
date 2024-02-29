@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Date and Time Display</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f2c1c1;
+    }
+    #datetime {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Date and Time</h1>
+  <div id="datetime"></div>
+
+  <script>
+    // JavaScript for displaying date and time
+    function displayDateTime() {
+      const currentDate = new Date();
+      const date = currentDate.toDateString();
+      const time = currentDate.toLocaleTimeString();
+
+      const displayDiv = document.getElementById('datetime');
+      displayDiv.innerHTML = `${date}<br>${time}`;
+    }
+
+    setInterval(displayDateTime, 1000); // Update every second
+    displayDateTime(); // Display immediately on page load
+  </script>
+
+</body>
+</html>
